@@ -21,9 +21,11 @@ xx <- cbind(x0, Chow.L1, Flo.L1, COS, SIN)
 x.mat <- matrix(xx, nrow = n-1, ncol = 5)
 G.mat <- diag(10)
 W.mat <- diag(rep(c(10, 0.0001, 0.0001, 0.0001, 0.0001), 2))
+
+
+# modeling 
 m1 <- SS(y = Sal.mat, x = x.mat,
-           Fmat =
-             function(tt, x, phi) return (matrix(
+           Fmat = function(tt, x, phi) return (matrix(
                c(x[tt,1], x[tt,2], x[tt,3], x[tt,4], x[tt,5], rep(0,10),
                  x[tt,1], x[tt,2], x[tt,3], x[tt,4], x[tt,5]),
                nrow=10,ncol=2)),

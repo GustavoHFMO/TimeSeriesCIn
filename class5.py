@@ -32,10 +32,12 @@ training, test = serie[:80], serie[80:]
 ################################################################################
 
 ####################### Kalman Filter modeling #########################################
-# training a Kalman Filter
-modelFitted = sspir.kfilter(training)
+# training a Kalman Filter# 
+modelFitted = sspir.SS(training)
+# forecasting
+prediction = sspir.kfilter(modelFitted)
 # making a prediction
-prediction = sspir.smoother(modelFitted)
+smooth = sspir.smoother(prediction)
 
 #plotting 
 plt.plot(training, label="training")

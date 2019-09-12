@@ -8,6 +8,12 @@ set.seed(1)
 Plummet.dat <- 20 + 2*rnorm(20) + c(rep(0,10), rep(-10,10))
 n <- length(Plummet.dat)
 Plummet.mat <- matrix(Plummet.dat, nrow = n, ncol = 1)
+
+# plotting the synthetic serie
+plot(m1$y, ylab = "Closing price", main = "Simulated")
+
+
+# training a kalman filter
 m1 <- SS(y = Plummet.mat,
            Fmat = function(tt,x,phi) return( matrix(1) ),
            Gmat = function(tt,x,phi) return( matrix(1) ),
@@ -15,14 +21,14 @@ m1 <- SS(y = Plummet.mat,
            Vmat = function(tt,x,phi) return( matrix(2) ),
            m0 = matrix(25), C0 = matrix(10))
 
-# plotting the synthetic serie
-plot(m1$y, ylab = "Closing price", main = "Simulated")
-
-# training a kalman filter
+# forecasting
 m1.f <- kfilter(m1)
+# smoother
 m1.s <- smoother(m1.f)
 
 # plotting the predictions
 lines(m1.f$m, lty = 2)
 lines(m1.s$m, lty = 3)
+
+
 
