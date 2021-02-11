@@ -1,5 +1,5 @@
 # TimeSeriesCIn
-Repositório com os códigos para a monitoria da disciplina de séries temporais da pós-graduação em inteligência computacional do centro de informática (CIn) - UFPE.
+Repositório com os códigos para a monitoria da disciplina de séries temporais da pós-graduação em Inteligência Computacional do Centro de Informática (CIn) - UFPE.
 
 * Decomposição da série, ACF, PACF - [Aula 1](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class1.py)
 * Simple Exponential, Holt and Winter, Exponential Smoothing, AR - [Aula 2](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class2.py)
