@@ -9,6 +9,6 @@ Repositório com os códigos para a monitoria da disciplina de séries temporais
 * [[Código 6](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class4_3.py)] - GARCH
 * [[Código 7](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class5.py)] - Filtro de Kalman com rpy2
 * [[Código 8](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class5_1.R)] - Filtro de Kalman com R
-* [[Aula 9](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class6/MLP%20para%20previsoes%20de%20series%20temporais.pdf)] - Aula sobre MLP para realizar previsões em séries temporais
+* [[Aula 9](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class6/MLP%20para%20previsoes%20de%20series%20temporais.pdf)] - (PDF) Aula sobre MLP para realizar previsões em séries temporais
 * [[Código 9](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class6/Main.py)] - MLP Regressor
 * [[Código 10](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class7/ELM.py)] - ELM Regressor
