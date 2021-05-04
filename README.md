@@ -1,4 +1,4 @@
-## Requerimentos
+# Requerimentos
 * Python 3 
 * Use pip para instalar as dependências.
 
