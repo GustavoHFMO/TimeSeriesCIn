@@ -1,3 +1,7 @@
+## Requerimentos
+* Python 3 
+* Use pip para instalar as dependências.
+* 
 # TimeSeriesCIn
 Repositório com os códigos para a monitoria da disciplina de séries temporais da pós-graduação em Inteligência Computacional do Centro de Informática (CIn) - UFPE.
 
@@ -12,7 +16,3 @@ Repositório com os códigos para a monitoria da disciplina de séries temporais
 * [[Aula 9](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class6/MLP%20para%20previsoes%20de%20series%20temporais.pdf)] - (PDF) Aula sobre MLP para realizar previsões em séries temporais
 * [[Código 9](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class6/Main.py)] - MLP Regressor
 * [[Código 10](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class7/ELM.py)] - ELM Regressor
-
-## Requerimentos
-* Python 3 
-* Use pip para instalar as dependências.
