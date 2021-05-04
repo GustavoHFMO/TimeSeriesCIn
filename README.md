@@ -1,7 +1,7 @@
 ## Requerimentos
 * Python 3 
 * Use pip para instalar as dependências.
-* 
+
 # TimeSeriesCIn
 Repositório com os códigos para a monitoria da disciplina de séries temporais da pós-graduação em Inteligência Computacional do Centro de Informática (CIn) - UFPE.
 
