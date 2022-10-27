@@ -12,6 +12,6 @@ Repositório com os códigos para a monitoria da disciplina de séries temporais
 * [[Aula 9](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class6/MLP%20para%20previsoes%20de%20series%20temporais.pdf)] - (PDF) Aula sobre MLP para realizar previsões em séries temporais
 * [[Código 9](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class6/Main.py)] - MLP Regressor
 * [[Código 10](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/class7/ELM.py)] - ELM Regressor
-* [[Aula 11](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/Previs%C3%A3o%20de%20S%C3%A9ries%20Temporais%20na%20Presen%C3%A7a%20de%20Mudan%C3%A7a%20de%20Conceito%20(Atualizado).pdf] - (PDF) Previsão de Séries Temporais na Presença de Mudança de Conceito
+* [[Aula 11](https://github.com/GustavoHFMO/TimeSeriesCIn/blob/master/Previsão%20de%20Séries%20Temporais%20na%20Presença%20de%20Mudança%20de%20Conceito%20(Atualizado).pdf] - (PDF) Previsão de Séries Temporais na Presença de Mudança de Conceito
 
 
